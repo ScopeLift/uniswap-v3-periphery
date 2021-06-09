@@ -15,7 +15,7 @@ import { PoolAddressTest } from '../typechain'
  * constructor argument and we want to ensure the WETH address is always safe to use as a constructor argument
  */
 
-describe('Setup', () => {
+describe.only('Setup', () => {
   let factory: Contract
   let weth9: Contract
 

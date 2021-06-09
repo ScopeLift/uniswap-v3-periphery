@@ -199,7 +199,7 @@ describe('TickLens', () => {
       )
     })
 
-    it('fully populated ticks', async () => {
+    it.only('fully populated ticks', async () => {
       // fully populate a word
       // OVM update: await each mint call individually instead of awaiting Promise.all() to ensure nonce is
       // properly incremented on each deploy transaction when testing against l2geth
